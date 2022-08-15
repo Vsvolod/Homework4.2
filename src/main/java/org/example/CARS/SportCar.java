@@ -1,11 +1,16 @@
-package org.example;
+package org.example.CARS;
 
-public class SportCar extends Car{
+import org.example.Car;
+import org.example.documentation.Driver;
+import org.example.technic.Engine;
+
+public class SportCar extends Car {
 
     int maxSpeed;
 
-    public SportCar(String mark, String clas, double weight, Driver driver, Engine engine, int maxSpeed) {
-        super(mark, clas, weight, driver, engine);
+
+    public SportCar(String mark, String clas, double weight, int maxSpeed) {
+        super(mark, clas, weight);
         this.maxSpeed = maxSpeed;
     }
 }

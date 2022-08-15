@@ -1,12 +1,11 @@
-package org.example;
+package org.example.CARS;
 
-public class Lorry extends Car{
+import org.example.Car;
+import org.example.documentation.Driver;
+import org.example.technic.Engine;
 
-    int carrying;
+//public class Lorry extends Car {
 
+    //int carrying;
 
-    public Lorry(String mark, String clas, double weight, Driver driver, Engine engine, int carrying) {
-        super(mark, clas, weight, driver, engine);
-        this.carrying = carrying;
-    }
-}
+//}
